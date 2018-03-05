@@ -1,0 +1,1 @@
+input.map(x=>(x.split("\t")(2),1)).reduceByKey((num,listofnums)=>num).map(nums=>(nums._1,1)).sortByKey().foreach(println);
